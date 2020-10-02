@@ -5,7 +5,11 @@
 ### References
 
 [南瓜书](https://datawhalechina.github.io/pumpkin-book/)
+
 [西瓜书修订信息](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/MLbook2016.htm)
+
 [B站【一起啃书】机器学习西瓜书白话解读](https://www.bilibili.com/video/BV17J411C7zZ?from=search&seid=15545210339377283900)
+
 [B站【第八、九、十章】爱你的小魔仙](https://space.bilibili.com/526523637)
+
 [B站【白板推导系列】shuhuai008](https://space.bilibili.com/97068901?from=search&seid=17581486286883392677)
