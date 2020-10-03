@@ -4,7 +4,7 @@
 
 ### 内容涵盖
 
-- [Chapter01 绪论](https://github.com/Ryuchen/Machine-Learning-Notes/blob/master/xmind/chapter01/README.md)
+- [Chapter01 绪论](https://github.com/Ryuchen/Machine-Learning-Notes/blob/master/notes/chapter01/README.md)
 
 - [Chapter02 模型评估与选择]()
 
@@ -39,7 +39,7 @@
 
 - codes 算法实现的源代码
 - refer 查找到的相关资源
-- xmind 读书笔记整理的XMIND脑图、导出的图片PNG和整理成Markdown的文档
+- notes 读书笔记整理的XMIND脑图、导出的图片PNG和整理成Markdown的文档
 
 ### References
 
