@@ -6,7 +6,7 @@
 
 - [Chapter01 绪论](https://github.com/Ryuchen/Machine-Learning-Notes/blob/master/notes/chapter01/README.md)
 
-- [Chapter02 模型评估与选择]()
+- [Chapter02 模型评估与选择](https://github.com/Ryuchen/Machine-Learning-Notes/blob/master/notes/chapter02/README.md)
 
 - [Chapter03 线性模型]()
 

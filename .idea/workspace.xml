@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a19390b0-dad5-4495-bf2d-08ad8b9ca32a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/notes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/chapter02/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/chapter02/第二章 模型评估与选择.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/chapter02/第二章 模型评估与选择.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/notes/chapter02/第二章 模型评估与选择.xmind" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="df6b24c3-b6ac-41b5-856b-16c98119adde">
+    <option name="files">
+      <option value="codes/chapter09/GMM/gmm.ipynb" />
+    </option>
+  </component>
+  <component name="ProjectId" id="1htYroKR8JER9rfJQNFHqga0uUW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/notes/chapter02" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notes/chapter02" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Machine-Learning-Notes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.temp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a19390b0-dad5-4495-bf2d-08ad8b9ca32a" name="Default Changelist" comment="" />
+      <created>1600832056703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600832056703</updated>
+      <workItem from="1600832057737" duration="3321000" />
+      <workItem from="1600934220490" duration="269000" />
+      <workItem from="1600934521144" duration="394000" />
+      <workItem from="1601718015072" duration="1000" />
+      <workItem from="1601724780625" duration="7000" />
+      <workItem from="1603847162799" duration="31000" />
+      <workItem from="1603847209226" duration="491000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1864" height="410" key="GridCell.Tab.0.bottom" timestamp="1600855872575">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1864" height="410" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1600843417292" />
+    <state width="1864" height="410" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1600855872575" />
+    <state width="1864" height="410" key="GridCell.Tab.0.center" timestamp="1600855872575">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1864" height="410" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1600843417291" />
+    <state width="1864" height="410" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1600855872575" />
+    <state width="1864" height="410" key="GridCell.Tab.0.left" timestamp="1600855872574">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1864" height="410" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1600843417291" />
+    <state width="1864" height="410" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1600855872574" />
+    <state width="1864" height="410" key="GridCell.Tab.0.right" timestamp="1600855872575">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1864" height="410" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1600843417292" />
+    <state width="1864" height="410" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1600855872575" />
+    <state x="702" y="271" key="SettingsEditor" timestamp="1600934916683">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="702" y="271" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1600934916683" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Machine_Learning_Notes$temp.coverage" NAME="temp Coverage Results" MODIFIED="1600837415056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
