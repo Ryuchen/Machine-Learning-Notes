@@ -8,7 +8,7 @@
 
 - [Chapter02 模型评估与选择](https://github.com/Ryuchen/Machine-Learning-Notes/blob/master/notes/chapter02/README.md)
 
-- [Chapter03 线性模型]()
+- [Chapter03 线性模型](https://github.com/Ryuchen/Machine-Learning-Notes/blob/master/notes/chapter03/README.md)
 
 - [Chapter04 决策树]()
 
