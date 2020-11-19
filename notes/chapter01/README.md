@@ -1,208 +1,256 @@
-<section id="nice" data-tool="mdnice编辑器" data-website="https://www.mdnice.com" style="padding: 0 10px; word-spacing: 0px; word-wrap: break-word; text-align: left; font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; line-height: 1.6; letter-spacing: .034em; color: rgb(63, 63, 63); font-size: 16px; word-break: all;"><h2 data-tool="mdnice编辑器" style="padding: 0px; font-weight: bold; color: black; font-size: 22px; display: block; text-align: center; background-image: url(https://files.mdnice.com/mountain_2.png); background-position: center center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; margin-bottom: 10px;"><span class="prefix" style="display: none;"></span><span class="content" style="text-align: center; display: inline-block; height: 38px; line-height: 42px; color: rgb(60, 112, 198); background-position: left center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; font-size: 18px; margin-bottom: 10px;">第一章 绪论</span><span class="suffix"></span></h2>
-<hr data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px; border-top: 1px solid black; height: 1px; padding: 0; border: none; text-align: center; background-image: linear-gradient(to right,rgba(60,122,198,0),rgba(60,122,198,0.75),rgba(60,122,198,0));">
-<h2 data-tool="mdnice编辑器" style="padding: 0px; font-weight: bold; color: black; font-size: 22px; display: block; text-align: center; background-image: url(https://files.mdnice.com/mountain_2.png); background-position: center center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; margin-bottom: 10px;"><span class="prefix" style="display: none;"></span><span class="content" style="text-align: center; display: inline-block; height: 38px; line-height: 42px; color: rgb(60, 112, 198); background-position: left center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; font-size: 18px; margin-bottom: 10px;">1.1 引言</span><span class="suffix"></span></h2>
-<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;"><span style="background-image: url(https://files.mdnice.com/mountain_1.png); background-size: 15px 15px; display: inline-block; width: 15px; height: 15px; line-height: 15px; margin-bottom: -1px;"></span><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 16px; font-weight: bold; display: inline-block; margin-left: 8px; color: rgb(60,112,198);">机器学习（Machine Learning）</span><span class="suffix" style="display: none;"></span></h3>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);"><strong style="font-weight: bold; line-height: 1.75em; color: rgb(74,74,74);">人们可以利用经验对很多事物做出预判，而对经验的利用除了靠我们人类自身完成之外，计算机能帮忙吗？</strong></p>
-</blockquote>
-<h4 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;"><span class="prefix" style="display: none;"></span><span class="content">机器学习的定义</span><span class="suffix" style="display: none;"></span></h4>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">经验化：</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">机器学习正式这样一门科学，它致力于研究如何通过计算的手段，利用经验来改善系统自身的性能</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">形式化：</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">假设用P来评估计算机程序在某任务类T上的性能，若一个程序通过利用经验E在T中任务上获得了性能改善，则我们就说关于T和P，该程序对E进行了学习</p>
-</blockquote>
-<h4 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;"><span class="prefix" style="display: none;"></span><span class="content">机器学习的主要内容</span><span class="suffix" style="display: none;"></span></h4>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">机器学习的主要内容，是关于在计算机上从数据中产生“模型”（model）的算法，即“学习算法”（learning algorithm）</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">如果说计算机科学是研究关于”算法“的学问，那么类似的，可以说机器学习是研究关于”学习算法“的学问</p>
-<h5 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 16px;"><span class="prefix" style="display: none;"></span><span class="content">模型</span><span class="suffix" style="display: none;"></span></h5>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">指全局性的结果</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">eg: 一颗决策树</p>
-</blockquote>
-<h5 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 16px;"><span class="prefix" style="display: none;"></span><span class="content">模式</span><span class="suffix" style="display: none;"></span></h5>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">指局部性的结果</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">eg: 一条规则</p>
-</blockquote>
-<h2 data-tool="mdnice编辑器" style="padding: 0px; font-weight: bold; color: black; font-size: 22px; display: block; text-align: center; background-image: url(https://files.mdnice.com/mountain_2.png); background-position: center center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; margin-bottom: 10px;"><span class="prefix" style="display: none;"></span><span class="content" style="text-align: center; display: inline-block; height: 38px; line-height: 42px; color: rgb(60, 112, 198); background-position: left center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; font-size: 18px; margin-bottom: 10px;">1.2 基础术语</span><span class="suffix"></span></h2>
-<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;"><span style="background-image: url(https://files.mdnice.com/mountain_1.png); background-size: 15px 15px; display: inline-block; width: 15px; height: 15px; line-height: 15px; margin-bottom: -1px;"></span><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 16px; font-weight: bold; display: inline-block; margin-left: 8px; color: rgb(60,112,198);">西瓜例子直观感受</span><span class="suffix" style="display: none;"></span></h3>
-<ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><p style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">数据集（data set）</p>
-<blockquote class="multiquote-1" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">一组记录的集合</p>
-</blockquote>
-</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><p style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">（色泽=青绿；根蒂=蜷缩；敲声=浊响）, （色泽=乌黑；根蒂=稍蜷；敲声=浊响）, （色泽=青绿；根蒂=硬挺；敲声=清脆）, ...</p>
-</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><p style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">示例（instance ）&amp; 样本（sample）</p>
-<blockquote class="multiquote-1" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">关一个事件或对象的描述</p>
-</blockquote>
-</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><p style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">（色泽=青绿；根蒂=蜷缩；敲声=浊响）</p>
-</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><p style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">属性（attribute）&amp; 特征（feature）</p>
-<blockquote class="multiquote-1" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">反应事件或对象在某方面的表现或性质的事项</p>
-</blockquote>
-<ul style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: square;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">色泽、根蒂、敲声</section></li></ul>
-</section></li></ul>
-<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;"><span style="background-image: url(https://files.mdnice.com/mountain_1.png); background-size: 15px 15px; display: inline-block; width: 15px; height: 15px; line-height: 15px; margin-bottom: -1px;"></span><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 16px; font-weight: bold; display: inline-block; margin-left: 8px; color: rgb(60,112,198);">形式化定义与表示</span><span class="suffix" style="display: none;"></span></h3>
-<ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><p style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">数据集</p>
-<ul style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: square;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="D=\left\{ \boldsymbol{x_1,x_2,...,x_m} \right\}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span></section></li></ul>
-</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><p style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">示例&amp;样本</p>
-<ul style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: square;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\boldsymbol{x_i}=\left(x_{i1};x_{i2};...;x_{id}\right)" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span></section></li></ul>
-</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><p style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">样本空间</p>
-<ul style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: square;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathcal{X};\boldsymbol{x_i} \in \mathcal{X}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span></section></li></ul>
-</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><p style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">属性值</p>
-<ul style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: square;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="x_{ij}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span></section></li></ul>
-</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><p style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">维数</p>
-<ul style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: square;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="d" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 称为样本 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\boldsymbol{x_i}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 的维数</section></li></ul>
-</section></li></ul>
-<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;"><span style="background-image: url(https://files.mdnice.com/mountain_1.png); background-size: 15px 15px; display: inline-block; width: 15px; height: 15px; line-height: 15px; margin-bottom: -1px;"></span><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 16px; font-weight: bold; display: inline-block; margin-left: 8px; color: rgb(60,112,198);">其他概念</span><span class="suffix" style="display: none;"></span></h3>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">学习（learning）&amp; 训练（training）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">从数据中学得模型的过程</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">训练数据（training data）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">训练过程中使用的数据</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">训练样本（training sample）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">训练数据中的每一个样本</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">训练集（training set）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">训练样本组成的集合</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">假设（hypothesis）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">学得模型对应数据的某种潜在的规律</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">真实（ground-truth）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">潜在规律的自身</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">模型=学习器（learner）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">学习算法在给定数据和参数空间上的实例化</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">标记（label）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">关于示例结果的信息</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">样例（sample）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">拥有了标记信息的示例</p>
-</blockquote>
-<ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="(\boldsymbol{x_i}, y_i)" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 表示第 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="i" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 个样例</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="y_i\in{\mathcal{Y}}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 是示例 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\boldsymbol{x_i}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 的标记</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathcal{Y}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 是所有标记的集合
-<ul style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: square;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">标记空间 &amp; 输出空间</section></li></ul>
-</section></li></ul>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">聚类（clustering）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">对训练集中的样本分成若干个组</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">簇（cluster）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">聚类中的每个组</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">泛化能力（generalization）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">学得模型适用于新样本的能力</p>
-</blockquote>
-<ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">泛化能力的强弱可以用适用于样本空间的范围来判定</section></li></ul>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">独立同分布（independent and identically distributed，简称 i.i.d.）</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">通常假设样本空间中全体样本服从一个未知“分布”（distribution） <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathcal{D}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> ，我们获得的每个样本都是独立地从这个分布上采样获得的</p>
-</blockquote>
-<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;"><span style="background-image: url(https://files.mdnice.com/mountain_1.png); background-size: 15px 15px; display: inline-block; width: 15px; height: 15px; line-height: 15px; margin-bottom: -1px;"></span><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 16px; font-weight: bold; display: inline-block; margin-left: 8px; color: rgb(60,112,198);">阶段划分</span><span class="suffix" style="display: none;"></span></h3>
-<h4 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;"><span class="prefix" style="display: none;"></span><span class="content">学习任务</span><span class="suffix" style="display: none;"></span></h4>
-<h5 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 16px;"><span class="prefix" style="display: none;"></span><span class="content">分类（classification）</span><span class="suffix" style="display: none;"></span></h5>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">预测值是离散值</p>
-<ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><p style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">二分类（binary classification）</p>
-<ul style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: square;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">正类（positive class）</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">反类（negative class）</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">···</section></li></ul>
-</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><p style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">多分类（multi-class classification）</p>
-<ul style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: square;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">聚类 (clustering)</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">···</section></li></ul>
-</section></li></ul>
-<h5 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 16px;"><span class="prefix" style="display: none;"></span><span class="content">回归（regression）</span><span class="suffix" style="display: none;"></span></h5>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">预测值是连续值</p>
-<h4 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;"><span class="prefix" style="display: none;"></span><span class="content">预测任务</span><span class="suffix" style="display: none;"></span></h4>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">希望通过对训练集 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\left\{(\boldsymbol{x_1},y_1), (\boldsymbol{x_2},y_2),...,(\boldsymbol{x_m},y_m)\right\}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 进行学习，建立一个从输入空间 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathcal{X}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 到输出空间 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathcal{Y}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 的映射 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="f:\mathcal{X}\mapsto\mathcal{Y}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> .进行预测的过程称为“测试”（testing），被预测的样本称为“测试样本”（testing sample）</p>
-<h5 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 16px;"><span class="prefix" style="display: none;"></span><span class="content">分类任务</span><span class="suffix" style="display: none;"></span></h5>
-<ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">对二分类任务: <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathcal{Y}=\left\{-1,+1\right\}或\left\{0,1\right\}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span></section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">对多分类任务: <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\left | \mathcal{Y} \right | >2" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span></section></li></ul>
-<h5 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 16px;"><span class="prefix" style="display: none;"></span><span class="content">回归任务</span><span class="suffix" style="display: none;"></span></h5>
-<ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathcal{Y}=\mathbb{R},\mathbb{R}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 为实数集</section></li></ul>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">在学得 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="f" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 后，对测试样例 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\boldsymbol{x}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> ，可得到其预测标记 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="{y=f\left(\boldsymbol{x}\right)}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> .</p>
-<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;"><span style="background-image: url(https://files.mdnice.com/mountain_1.png); background-size: 15px 15px; display: inline-block; width: 15px; height: 15px; line-height: 15px; margin-bottom: -1px;"></span><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 16px; font-weight: bold; display: inline-block; margin-left: 8px; color: rgb(60,112,198);">类型划分</span><span class="suffix" style="display: none;"></span></h3>
-<h4 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;"><span class="prefix" style="display: none;"></span><span class="content">有监督学习（supervised learning）</span><span class="suffix" style="display: none;"></span></h4>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">它从有标记的训练数据中推导出预测函数。有标记的训练数据是指每个训练实例都包括输入和期望的输出。一句话：给定数据，预测标签。</p>
-</blockquote>
-<h4 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;"><span class="prefix" style="display: none;"></span><span class="content">无监督学习（unsupervised learning）</span><span class="suffix" style="display: none;"></span></h4>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">它从无标记的训练数据中推断结论。最典型的无监督学习就是聚类分析，它可以在探索性数据分析阶段用于发现隐藏的模式或者对数据进行分组。一句话：给定数据，寻找隐藏的结构。</p>
-</blockquote>
-<h4 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;"><span class="prefix" style="display: none;"></span><span class="content">半监督学习（semi-supervised learning）</span><span class="suffix" style="display: none;"></span></h4>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">对于半监督学习，其训练数据的一部分是有标签的，另一部分没有标签，而没标签数据的数量常常远远大于有标签数据数量（这也是符合现实情况的）。</p>
-</blockquote>
-<h4 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;"><span class="prefix" style="display: none;"></span><span class="content">强化学习（reinforcement learning）</span><span class="suffix" style="display: none;"></span></h4>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">它关注的是软件代理如何在一个环境中采取行动以便最大化某种累积的回报。一句话：给定数据，学习如何选择一系列行动，以最大化长期收益。</p>
-</blockquote>
-<h2 data-tool="mdnice编辑器" style="padding: 0px; font-weight: bold; color: black; font-size: 22px; display: block; text-align: center; background-image: url(https://files.mdnice.com/mountain_2.png); background-position: center center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; margin-bottom: 10px;"><span class="prefix" style="display: none;"></span><span class="content" style="text-align: center; display: inline-block; height: 38px; line-height: 42px; color: rgb(60, 112, 198); background-position: left center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; font-size: 18px; margin-bottom: 10px;">1.3 假设空间</span><span class="suffix"></span></h2>
-<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;"><span style="background-image: url(https://files.mdnice.com/mountain_1.png); background-size: 15px 15px; display: inline-block; width: 15px; height: 15px; line-height: 15px; margin-bottom: -1px;"></span><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 16px; font-weight: bold; display: inline-block; margin-left: 8px; color: rgb(60,112,198);">科学推理</span><span class="suffix" style="display: none;"></span></h3>
-<h4 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;"><span class="prefix" style="display: none;"></span><span class="content">归纳（induction）</span><span class="suffix" style="display: none;"></span></h4>
-<ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">从特殊到一般的泛化（generalization）过程</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">即从具体的事实归结出一般性规律</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">“从样例中学习”是一个归纳的过程，称为归纳学习（inductive learning）</section></li></ul>
-<h4 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;"><span class="prefix" style="display: none;"></span><span class="content">演绎（deduction）</span><span class="suffix" style="display: none;"></span></h4>
-<ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">从一般到特殊的特化（specialization）过程</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">即从基础原理推演出具体状况</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">基于一组公理和推理规则推导出预支相洽的定理，这是演绎</section></li></ul>
-<h2 data-tool="mdnice编辑器" style="padding: 0px; font-weight: bold; color: black; font-size: 22px; display: block; text-align: center; background-image: url(https://files.mdnice.com/mountain_2.png); background-position: center center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; margin-bottom: 10px;"><span class="prefix" style="display: none;"></span><span class="content" style="text-align: center; display: inline-block; height: 38px; line-height: 42px; color: rgb(60, 112, 198); background-position: left center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; font-size: 18px; margin-bottom: 10px;">1.4 归纳偏好</span><span class="suffix"></span></h2>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">机器学习算法在学习过程中对某种类型假设的偏好，称为“归纳偏好”（inductive bias）</p>
-<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;"><span style="background-image: url(https://files.mdnice.com/mountain_1.png); background-size: 15px 15px; display: inline-block; width: 15px; height: 15px; line-height: 15px; margin-bottom: -1px;"></span><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 16px; font-weight: bold; display: inline-block; margin-left: 8px; color: rgb(60,112,198);">奥卡姆剃刀（Occam's razor）</span><span class="suffix" style="display: none;"></span></h3>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">若有多个假设与观察一致，则选择最简单的那个</p>
-</blockquote>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">自然科学研究中最常用的最基本的用来引导算法确立“正确的”偏好的原则</p>
-<h4 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;"><span class="prefix" style="display: none;"></span><span class="content">如何确定哪一个假设，更“简单”的问题？</span><span class="suffix" style="display: none;"></span></h4>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">归纳偏好对应了学习算法本身所做出的关于“什么样的模型更好”的假设</p>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">算法的归纳偏好是否与问题本身匹配，大多数时候直接决定了算法能否取得好的性能</p>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">具体如下：</p>
-<ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">定义模型A的学习算法：<span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathfrak{L}_a" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span></section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">定义模型B的学习算法：<span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathfrak{L}_b" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span></section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">并且 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\sum_f E_{ote}(\mathfrak{L}_a|X,f) = \sum_f E_{ote}(\mathfrak{L}_b|X,f)" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span></section></li></ul>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">数学证明</p>
-<ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">样本空间 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathcal{X}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 和假设空间 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathcal{H}" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 都是离散的</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">令 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="P\left(h|X,\mathfrak{L}_a\right)" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 代表算法 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathfrak{L}_a" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 基于训练数据 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="X" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 产生假设 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="h" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 的概率，再令 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="f" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 代表我们希望学习的真实目标函数。</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathfrak{L}_a" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 的“训练集外误差”，即 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\mathfrak{L}_a" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 在训练集之外的所有样本上的误差为</section></li><li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="{E_{ote}}{\left({\mathfrak{L}_a|X,f}\right)}=\sum_{h}\sum_{\boldsymbol{x}\in\mathcal{X}-X}P\left({\boldsymbol{x}}\right)\mathbb{I}(h(\boldsymbol{x}) \neq f(\boldsymbol{x}))P(h|X,\mathfrak{L}_a)" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span></section></li></ul>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">针对二分类问题</p>
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">对所有可能的 <span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="f" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span> 按均匀分布对误差求和</p>
-</blockquote>
-<ul data-tool="mdnice编辑器" style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
-<li><section style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;"><span class="span-inline-equation" style="cursor:pointer"><img class="Formula-image" data-eeimg="true" src alt="\sum_f{E_{ote}(\mathfrak{L}_a|X,f)}=\sum_f \sum_h \sum_{\boldsymbol{x}\in\mathcal{X}-X} P(\boldsymbol{x})\mathbb{I}(h(\boldsymbol{x}) \neq f(\boldsymbol{x}))P(h|X,\mathfrak{L}_a)=2^{|X|-1}\sum_{\boldsymbol{x}\in\mathcal{X}-X}P(\boldsymbol{x})·1" style="display: block; margin: 0 auto; max-width: 100%; border-radius: 4px; margin-bottom: 25px;"></span></section></li></ul>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;">推导演算的最终结果与学习的目标函数无关，因此样本空间的总误差与学习算法无关</p>
-<p data-tool="mdnice编辑器" style="font-size: 16px; padding-bottom: 8px; margin: 0; padding-top: 23px; color: rgb(74,74,74); line-height: 1.75em;"><strong style="font-weight: bold; line-height: 1.75em; color: rgb(74,74,74);">脱离具体问题，空泛谈论“什么学习算法更好”毫无意义</strong></p>
-<h2 data-tool="mdnice编辑器" style="padding: 0px; font-weight: bold; color: black; font-size: 22px; display: block; text-align: center; background-image: url(https://files.mdnice.com/mountain_2.png); background-position: center center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; margin-bottom: 10px;"><span class="prefix" style="display: none;"></span><span class="content" style="text-align: center; display: inline-block; height: 38px; line-height: 42px; color: rgb(60, 112, 198); background-position: left center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; font-size: 18px; margin-bottom: 10px;">1.5 发展历程</span><span class="suffix"></span></h2>
-<h2 data-tool="mdnice编辑器" style="padding: 0px; font-weight: bold; color: black; font-size: 22px; display: block; text-align: center; background-image: url(https://files.mdnice.com/mountain_2.png); background-position: center center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; margin-bottom: 10px;"><span class="prefix" style="display: none;"></span><span class="content" style="text-align: center; display: inline-block; height: 38px; line-height: 42px; color: rgb(60, 112, 198); background-position: left center; background-repeat: no-repeat; background-attachment: initial; background-origin: initial; background-clip: initial; background-size: 63px; margin-top: 38px; font-size: 18px; margin-bottom: 10px;">1.6 应用现状</span><span class="suffix"></span></h2>
-<hr data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px; border-top: 1px solid black; height: 1px; padding: 0; border: none; text-align: center; background-image: linear-gradient(to right,rgba(60,122,198,0),rgba(60,122,198,0.75),rgba(60,122,198,0));">
-<blockquote class="multiquote-1" data-tool="mdnice编辑器" style="border: none; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; background: rgba(0, 0, 0, 0.05); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; padding: 15px 20px; line-height: 27px; background-color: rgb(239, 239, 239); border-left: none; display: block;">
-<p style="padding-bottom: 8px; padding-top: 23px; margin: 0px; line-height: 26px; padding: 0px; font-size: 15px; color: rgb(89,89,89);">以上内容也可以到我的 Github 去查看(附了相应实现代码哟) <a href="https://github.com/Ryuchen/Machine-Learning-Notes" style="word-wrap: break-word; font-weight: bold; color: rgb(60, 112, 198); text-decoration: none; border-bottom: 1px solid rgb(60, 112, 198);">Machine-Learning-Notes</a></p>
-</blockquote>
-</section>
+## 第一章 绪论
+
+---
+
+## 1.1 引言
+
+### 机器学习（Machine Learning）
+
+> **人们可以利用经验对很多事物做出预判，而对经验的利用除了靠我们人类自身完成之外，计算机能帮忙吗？**
+
+#### 机器学习的定义
+
+经验化：
+
+> 机器学习正式这样一门科学，它致力于研究如何通过计算的手段，利用经验来改善系统自身的性能
+
+形式化：
+
+> 假设用P来评估计算机程序在某任务类T上的性能，若一个程序通过利用经验E在T中任务上获得了性能改善，则我们就说关于T和P，该程序对E进行了学习
+
+#### 机器学习的主要内容
+
+> 机器学习的主要内容，是关于在计算机上从数据中产生“模型”（model）的算法，即“学习算法”（learning algorithm）
+
+如果说计算机科学是研究关于”算法“的学问，那么类似的，可以说机器学习是研究关于”学习算法“的学问
+
+##### 模型
+
+指全局性的结果
+
+> eg: 一颗决策树
+
+##### 模式
+
+指局部性的结果
+
+> eg: 一条规则
+
+## 1.2 基础术语
+
+### 西瓜例子直观感受
+
+- 数据集（data set）  
+
+  > 一组记录的集合
+
+- （色泽=青绿；根蒂=蜷缩；敲声=浊响）, （色泽=乌黑；根蒂=稍蜷；敲声=浊响）, （色泽=青绿；根蒂=硬挺；敲声=清脆）, ...
+
+- 示例（instance ）& 样本（sample）
+
+  > 关一个事件或对象的描述
+
+- （色泽=青绿；根蒂=蜷缩；敲声=浊响）
+
+- 属性（attribute）& 特征（feature）
+
+  > 反应事件或对象在某方面的表现或性质的事项
+
+  - 色泽、根蒂、敲声
+
+### 形式化定义与表示
+
+- 数据集
+  - $D=\left\{ \boldsymbol{x_1,x_2,...,x_m} \right\}$
+
+- 示例&样本
+  - $\boldsymbol{x_i}=\left(x_{i1};x_{i2};...;x_{id}\right)$
+
+- 样本空间
+  - $\mathcal{X};\boldsymbol{x_i} \in \mathcal{X}$
+
+- 属性值
+  - $x_{ij}$
+
+- 维数
+  - $d$ 称为样本 $\boldsymbol{x_i}$ 的维数
+
+### 其他概念
+
+学习（learning）& 训练（training）
+
+> 从数据中学得模型的过程
+
+训练数据（training data）
+
+> 训练过程中使用的数据
+
+训练样本（training sample）
+
+> 训练数据中的每一个样本
+
+训练集（training set）
+
+> 训练样本组成的集合
+
+假设（hypothesis）
+
+> 学得模型对应数据的某种潜在的规律
+
+真实（ground-truth）
+
+> 潜在规律的自身
+
+模型=学习器（learner）
+
+> 学习算法在给定数据和参数空间上的实例化
+
+标记（label）
+
+> 关于示例结果的信息
+
+样例（sample）
+
+> 拥有了标记信息的示例
+
+- $(\boldsymbol{x_i}, y_i)$ 表示第 $i$ 个样例
+- $y_i\in{\mathcal{Y}}$ 是示例 $\boldsymbol{x_i}$ 的标记
+- $\mathcal{Y}$ 是所有标记的集合
+  - 标记空间 & 输出空间
+
+聚类（clustering）
+
+> 对训练集中的样本分成若干个组
+
+簇（cluster）
+
+> 聚类中的每个组
+
+泛化能力（generalization）
+
+> 学得模型适用于新样本的能力
+
+- 泛化能力的强弱可以用适用于样本空间的范围来判定
+
+独立同分布（independent and identically distributed，简称 i.i.d.）
+
+> 通常假设样本空间中全体样本服从一个未知“分布”（distribution） $\mathcal{D}$ ，我们获得的每个样本都是独立地从这个分布上采样获得的 
+
+### 阶段划分
+
+#### 学习任务
+
+##### 分类（classification）
+
+预测值是离散值
+
+- 二分类（binary classification）
+
+  - 正类（positive class）
+  - 反类（negative class）
+  - ···
+
+- 多分类（multi-class classification）
+  		
+  - 聚类 (clustering)
+  - ···
+
+##### 回归（regression）
+
+预测值是连续值
+
+#### 预测任务
+
+希望通过对训练集 $\left\{(\boldsymbol{x_1},y_1), (\boldsymbol{x_2},y_2),...,(\boldsymbol{x_m},y_m)\right\}$ 进行学习，建立一个从输入空间 $\mathcal{X}$ 到输出空间 $\mathcal{Y}$ 的映射 $f:\mathcal{X}\mapsto\mathcal{Y}$ .进行预测的过程称为“测试”（testing），被预测的样本称为“测试样本”（testing sample）
+
+##### 分类任务
+
+- 对二分类任务: $\mathcal{Y}=\left\{-1,+1\right\}或\left\{0,1\right\}$
+- 对多分类任务: $\left | \mathcal{Y} \right | >2$
+
+##### 回归任务
+
+- $\mathcal{Y}=\mathbb{R},\mathbb{R}$ 为实数集
+
+在学得 $f$ 后，对测试样例 $\boldsymbol{x}$ ，可得到其预测标记 ${y=f\left(\boldsymbol{x}\right)}$ .
+
+### 类型划分
+
+#### 有监督学习（supervised learning）
+
+> 它从有标记的训练数据中推导出预测函数。有标记的训练数据是指每个训练实例都包括输入和期望的输出。一句话：给定数据，预测标签。
+
+#### 无监督学习（unsupervised learning）
+
+> 它从无标记的训练数据中推断结论。最典型的无监督学习就是聚类分析，它可以在探索性数据分析阶段用于发现隐藏的模式或者对数据进行分组。一句话：给定数据，寻找隐藏的结构。
+
+#### 半监督学习（semi-supervised learning）
+
+> 对于半监督学习，其训练数据的一部分是有标签的，另一部分没有标签，而没标签数据的数量常常远远大于有标签数据数量（这也是符合现实情况的）。
+
+#### 强化学习（reinforcement learning）
+
+> 它关注的是软件代理如何在一个环境中采取行动以便最大化某种累积的回报。一句话：给定数据，学习如何选择一系列行动，以最大化长期收益。
+
+## 1.3 假设空间
+
+### 科学推理
+
+#### 归纳（induction）
+
+- 从特殊到一般的泛化（generalization）过程
+- 即从具体的事实归结出一般性规律
+- “从样例中学习”是一个归纳的过程，称为归纳学习（inductive learning）
+
+#### 演绎（deduction）
+
+- 从一般到特殊的特化（specialization）过程
+- 即从基础原理推演出具体状况
+- 基于一组公理和推理规则推导出预支相洽的定理，这是演绎
+
+## 1.4 归纳偏好
+
+机器学习算法在学习过程中对某种类型假设的偏好，称为“归纳偏好”（inductive bias）
+
+### 奥卡姆剃刀（Occam's razor）
+
+> 若有多个假设与观察一致，则选择最简单的那个
+
+自然科学研究中最常用的最基本的用来引导算法确立“正确的”偏好的原则
+
+#### 如何确定哪一个假设，更“简单”的问题？
+
+归纳偏好对应了学习算法本身所做出的关于“什么样的模型更好”的假设
+
+算法的归纳偏好是否与问题本身匹配，大多数时候直接决定了算法能否取得好的性能
+
+具体如下：
+
+- 定义模型A的学习算法：$\mathfrak{L}_a$
+- 定义模型B的学习算法：$\mathfrak{L}_b$
+- 并且 $\sum_f E_{ote}(\mathfrak{L}_a|X,f) = \sum_f E_{ote}(\mathfrak{L}_b|X,f)$
+
+数学证明
+
+- 样本空间 $\mathcal{X}$ 和假设空间 $\mathcal{H}$ 都是离散的
+- 令 $P\left(h|X,\mathfrak{L}_a\right)$ 代表算法 $\mathfrak{L}_a$ 基于训练数据 $X$ 产生假设 $h$ 的概率，再令 $f$ 代表我们希望学习的真实目标函数。
+- $\mathfrak{L}_a$ 的“训练集外误差”，即 $\mathfrak{L}_a$ 在训练集之外的所有样本上的误差为
+- ${E_{ote}}{\left({\mathfrak{L}_a|X,f}\right)}=\sum_{h}\sum_{\boldsymbol{x}\in\mathcal{X}-X}P\left({\boldsymbol{x}}\right)\mathbb{I}(h(\boldsymbol{x}) \neq f(\boldsymbol{x}))P(h|X,\mathfrak{L}_a)$
+
+针对二分类问题
+
+> 对所有可能的 $f$ 按均匀分布对误差求和
+
+- $\sum_f{E_{ote}(\mathfrak{L}_a|X,f)}=\sum_f \sum_h \sum_{\boldsymbol{x}\in\mathcal{X}-X} P(\boldsymbol{x})\mathbb{I}(h(\boldsymbol{x}) \neq f(\boldsymbol{x}))P(h|X,\mathfrak{L}_a)=2^{|X|-1}\sum_{\boldsymbol{x}\in\mathcal{X}-X}P(\boldsymbol{x})·1$
+
+推导演算的最终结果与学习的目标函数无关，因此样本空间的总误差与学习算法无关
+
+**脱离具体问题，空泛谈论“什么学习算法更好”毫无意义**
+
+## 1.5 发展历程
+
+略
+
+## 1.6 应用现状
+
+略
