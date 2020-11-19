@@ -1,4 +1,3 @@
-
 ## 第二章 模型评估与选择
 
 ---
@@ -26,7 +25,7 @@
 - 把学习器的实际预测输出与样本的真实输出之间的差异称为误差
 - 学习器在训练集上的误差称为 “训练误差”（training error）或 “经验误差”（empirical error）
 - 在新样本上的误差称为 “泛化误差”（generalization error）
-	
+
 > **机器学习的目标：得到泛化误差小的学习器**
 
 **机器学习的关键障碍，无法彻底避免，只能“缓解”**
@@ -61,7 +60,7 @@
 #### 分层采样（stratified sampling）
 
 ##### 留出法（hold-out）
-    
+
 - 直接将数据集划分为两个互斥的集合   
 - $D = S \cup T, S \cap T = \emptyset$
 
@@ -70,7 +69,7 @@
 > 常见做法 2/3 ~ 4/5 的样本作为训练集，剩余样本用于测试
 
 ##### 交叉验证法（cross validation）
-    
+
 - 将数据集划分为k个大小相似的互斥子集
 
 - $D=D_1 \cup D_2 \cup ... \cup D_k, D_i \cap D_j = \emptyset (i \neq j)$
@@ -93,7 +92,7 @@
 #### 自助采样（bootstrap sampling）
 
 ##### 自助法（bootstrapping）
-    
+
 ###### 自助采样过程
 
 $Step1$: 对包含m个样本的数据集$D$，进行采样产生数据集$D'$
@@ -107,7 +106,7 @@ $Step3$:步骤二重复$m$次，得到包含$m$个样本的数据集$D'$，就�
 > $D'$ 中会有一部分重复样本
 
 > 样本在$m$次采样中始终不被采到的概率是$(1-\frac{1}{m})^m$
-	
+
 > $\lim_{m\to\infty}(1-\frac{1}{m})^m = \frac{1}{e}\approx 0.368$
 
 通过自助采样，初始数据集中约有36.8%的样本未出现在采样数据集中
@@ -155,7 +154,7 @@ $Step5$: 最终使用全部$m$个样本按选定的算法和参数设置训练�
 
 > 回归任务最常用
 
-给定样例集$D=\left\\{(\boldsymbol{x_1}, y_1),(\boldsymbol{x_2}, y_2),...,(\boldsymbol{x_m}, y_m)\right\\}$，其中$y_i$是示例$\boldsymbol{x_i}$的真实标记
+给定样例集$D=\left\{(\boldsymbol{x_1}, y_1),(\boldsymbol{x_2}, y_2),...,(\boldsymbol{x_m}, y_m)\right\}$，其中$y_i$是示例$\boldsymbol{x_i}$的真实标记
 
 $E(f;D)=\frac{1}{m}\sum_{i=1}^m(f(\boldsymbol{x_i})-y_i)^2$
 
@@ -219,30 +218,30 @@ $E(f;D)=\int_{\boldsymbol{x}\sim D}(f(\boldsymbol{x})-y)^2p(\boldsymbol{x})d\bol
 
 - $F1=\frac{2 \times P \times R}{P + R}=\frac{2\times TP}{m+TP-TN}$
 - 源于查准率与查全率的调和平均（harmonic mean）
-	- $\frac{1}{F1}=\frac{1}{2}(\frac{1}{P}+\frac{1}{R})$
-  
+  - $\frac{1}{F1}=\frac{1}{2}(\frac{1}{P}+\frac{1}{R})$
+
 ###### $F_{\beta}$ 度量
 
 - $F 1=\frac{(1+\beta^2) \times P \times R}{(\beta^2 \times P) + R}$
 - 源于查准率与查全率的加权调和平均
-	- $\frac{1}{F_{\beta}}=\frac{1}{1+\beta^2}(\frac{1}{P}+\frac{\beta^2}{R})$
+  - $\frac{1}{F_{\beta}}=\frac{1}{1+\beta^2}(\frac{1}{P}+\frac{\beta^2}{R})$
 - $\beta$ 度量了查全率和查准率的相对重要性
-	- $\beta=1$退化为标准型$F1$值
-	- $\beta>1$时查全率有更大影响
-	- $\beta<1$时查准率有更大影响
+  - $\beta=1$退化为标准型$F1$值
+  - $\beta>1$时查全率有更大影响
+  - $\beta<1$时查准率有更大影响
 
 ###### n次二分类实现的多分类问题
 
 - 先分别计算，再求平均值
-	- 宏查准率: macro-P = $\frac{1}{n}\sum_{i=1}^{n}P_{i}$
-	- 宏查全率: macro-R = $\frac{1}{n}\sum_{i=1}^{n}R_{i}$
-	- 宏F1: macro-F1 = $\frac{2 \times \text{macro-P} \times \text{macro-R}}{\text{macro-P + macro-R}}$
+  - 宏查准率: macro-P = $\frac{1}{n}\sum_{i=1}^{n}P_{i}$
+  - 宏查全率: macro-R = $\frac{1}{n}\sum_{i=1}^{n}R_{i}$
+  - 宏F1: macro-F1 = $\frac{2 \times \text{macro-P} \times \text{macro-R}}{\text{macro-P + macro-R}}$
 
 - 先求平均值，再分别计算
-	- 平均值分别记为：$\overline{TP}、\overline{FP}、\overline{TN}、\overline{FN}$
-	- 微查准率: $\text{micro-P}=\frac{\overline{TP}}{\overline{TP}+\overline{FP}}$
-	- 微查全率: $\text{micro-R}=\frac{\overline{TP}}{\overline{TP}+\overline{FN}}$
-	- 微F1: $\text{micro-F1}=\frac{2 \times \text{micro-P} \times \text{micro-R}}{\text{micro-P}+\text{micro-R}}$
+  - 平均值分别记为：$\overline{TP}、\overline{FP}、\overline{TN}、\overline{FN}$
+  - 微查准率: $\text{micro-P}=\frac{\overline{TP}}{\overline{TP}+\overline{FP}}$
+  - 微查全率: $\text{micro-R}=\frac{\overline{TP}}{\overline{TP}+\overline{FN}}$
+  - 微F1: $\text{micro-F1}=\frac{2 \times \text{micro-P} \times \text{micro-R}}{\text{micro-P}+\text{micro-R}}$
 
 ### ROC与AUC
 
@@ -264,8 +263,9 @@ ROC曲线下的面积
 > $AUC=\frac{1}{2}\sum_{i=1}^{m-1}(x_{i+1}-x_i)(y_i+y_{i+1})$
 
 > AUC是考虑样本预测的排序质量，因此它与排序误差有紧密联系
-	
+
 排序导致的损失公式
+
 - $\ell_{rank}=\frac{1}{m^+m^-}\sum_{\boldsymbol{x^+} \in D^+}\sum_{\boldsymbol{x^-} \in D^-}(\mathbb{I}(f(\boldsymbol{x^+})<f(\boldsymbol{x^-}))+\frac{1}{2}\mathbb{I}(f(\boldsymbol{x^+})=f(\boldsymbol{x^-})))$
 - 考虑每一个正反例，如果预测值小于反例，记1，若相等，记0.5
 - $AUC = 1 - \ell_{rank}$
@@ -273,6 +273,7 @@ ROC曲线下的面积
 ### 代价敏感错误率与代价曲线
 
 非均等代价（unequal cost）
+
 > 为权衡不同类型错误所造成的不同损失
 
 #### 代价矩阵（cost matrix）
@@ -297,10 +298,12 @@ ROC曲线下的面积
 $p=\frac{m^+}{m};m是样例数，m^+是正样例数$
 
 横轴
+
 - 取值为 [0, 1] 的正例概率代价
 - $P(+)cost=\frac{p \times cost_{01}}{p \times cost_{01} + (1 - p) \times cost_{10}}$
 
 纵轴
+
 - 取值为 [0, 1] 的归一化代价
 - $cost_{norm}=\frac{FNR \times p \times cost_{01} + FPR \times (1-p) \times cost_{10}}{p \times cost_{01} + (1-p) \times cost_{10}}$
 
@@ -341,15 +344,23 @@ $p=\frac{m^+}{m};m是样例数，m^+是正样例数$
 ##### 符号
 
 - $\epsilon$ - 泛化错误率
+
   > 是学习器的内在属性，是客观存在的值，但是无法观测
+
 - $\epsilon_{0}$ - 泛化错误率
+
   > 是人为设定的一个值，用于推测真实的泛化错误率
-	- $\epsilon = \epsilon_{0}$
-	- $\epsilon \le \epsilon_{0}$
-	- $\epsilon \ge \epsilon_{0}$
+
+  - $\epsilon = \epsilon_{0}$
+  - $\epsilon \le \epsilon_{0}$
+  - $\epsilon \ge \epsilon_{0}$
+
 - $\hat {\epsilon}$ - 测试错误率
+
   > 是经过实验观测到的测试错误率，跟泛化错误率存在某种关系
+
 - $\overline{\epsilon}$ - 检验临界值
+
   > 是测试错误率的上限，为了使得假设条件得到满足的最大测试错误率的值
 
 ##### 理念
@@ -367,7 +378,7 @@ $$P(\hat{\epsilon};\epsilon)=\begin{pmatrix} m \\\\ \hat{\epsilon} \times m \end
 ##### 常用方法
 
 ###### t - 检验（t-test)
-    
+
 存在k个测试错误率，$\hat{\epsilon_{1}}，\hat{\epsilon_{2}}，...，\hat{\epsilon_{k}}$
 
 - 平均测试错误率: $\mu = \frac {1} {k} \sum_{i=1}^k \hat{\epsilon_{i}}$
@@ -375,6 +386,7 @@ $$P(\hat{\epsilon};\epsilon)=\begin{pmatrix} m \\\\ \hat{\epsilon} \times m \end
 
 **$k$个测试错误率可以看作泛化错误率 $\epsilon$ 的独立采样**
 即：
+
 - 服从自由度为 $k-1$ 的 t-分布
 - $\tau_{t}=\frac{\sqrt{k}(\mu-\epsilon_{0})}{\sigma}$
 
@@ -391,7 +403,7 @@ $$P(\hat{\epsilon};\epsilon)=\begin{pmatrix} m \\\\ \hat{\epsilon} \times m \end
 - 当 $\tau_{t} > t_{\frac{\alpha}{2},k-1}$ 则假设被拒绝，且平均错误率较小的那个学习器性能更优
 
 ###### 交叉验证 t 检验
-    
+
 若两个学习期的性能相同，则它们使用相同的训练集和测试集得到的测试错误率应相同，即：$\epsilon_{i}^A = \epsilon_{i}^B$
 
 **k折交叉验证法**
@@ -404,8 +416,9 @@ $$P(\hat{\epsilon};\epsilon)=\begin{pmatrix} m \\\\ \hat{\epsilon} \times m \end
 - $Step4:$计算出差值的均值 $\mu$ 和 方差 $\sigma^2$，在显著度 $\alpha$ 下，计算变量 $$\tau_t =|\frac{\sqrt{k}\mu}{\sigma}|$$
 
 **5x2交叉验证法 (5次2折交叉验证)**
+
   > 为了缓解k折交叉验证法过高估计假设成立提出的解决方案
-    
+
 步骤
 
 - $Step1:$在每次进行2折交叉验证之前随机将数据打乱，使得五次交叉验证中的数据划分不重复
@@ -414,7 +427,7 @@ $$P(\hat{\epsilon};\epsilon)=\begin{pmatrix} m \\\\ \hat{\epsilon} \times m \end
 - $Step4:$计算变量 $$\tau_t = \frac{\mu}{\sqrt{\frac{\sum_{i=1}^5\sigma_{i}^2}{5}}}$$
 
 ###### McNemar 检验
-    
+
 ![列联表](https://cdn.jsdelivr.net/gh/Ryuchen/ImageBed@develop/2020/10/27/18843556256b268a9b3a86251eb2b79d.webp)
 
 - 列联表（contingency table）
@@ -440,8 +453,11 @@ $$P(\hat{\epsilon};\epsilon)=\begin{pmatrix} m \\\\ \hat{\epsilon} \times m \end
 ###### Nemenyi 后续检验（Nemenyi post-hoc test）
 
 - 计算平均序值差别的临界值域
+
 - $CD=q_{\alpha}\sqrt{\frac{k(k+1)}{6N}}$
+
   > $q_{\alpha}$是Tukey分布的临界值
+
 - 若两个算分的平均序值之差超过了临界值域，则以相应的置信度拒绝“两个算法性能相同”这一假设
 
 ###### Friedman 检验图
@@ -472,8 +488,8 @@ $$P(\hat{\epsilon};\epsilon)=\begin{pmatrix} m \\\\ \hat{\epsilon} \times m \end
 
 - 学习算法的期望预测: $$\overline{f}(\boldsymbol{x})=\mathbb{E}_{D}[f(\boldsymbol{x};D)]$$
 - 使用样本数相同的不同训练集产生的方差: $$var(\boldsymbol{x})=\mathbb{E}_{D}[(f(\boldsymbol{x};D)-\overline{f}(\boldsymbol{x}))^2]$$
-- 噪声: $\varepsilon^2=\mathbb{E}_D[(y_D-y)^2]$
-- 偏差: $bias^2(\boldsymbol{x})=(\overline{f}(\boldsymbol{x})-y)^2$
+- 噪声: $$\varepsilon^2=\mathbb{E}_D[(y_D-y)^2]$$
+- 偏差: $$bias^2(\boldsymbol{x})=(\overline{f}(\boldsymbol{x})-y)^2$$
 
 ##### 结论
 
@@ -485,10 +501,3 @@ $$P(\hat{\epsilon};\epsilon)=\begin{pmatrix} m \\\\ \hat{\epsilon} \times m \end
 
 - 使得偏差较小，即能充分拟合数据
 - 使得方差较小，即使得数据扰动产生的影响小
-
----
-
-> 由于Github公式显式限制，可以去我的博客 [https://ryuchen.club](https://ryuchen.club)进行查看，同时可以领取以下内容
-
-- 本章脑图
-- 本章图片
