@@ -251,6 +251,10 @@
 
 略
 
+<<<<<<< Updated upstream
 ## 1.6 应用现状
 
 略
+=======
+> 以上内容也可以到我的 Github 去查看(附了相应实现代码哟) [Machine-Learning-Notes](https://github.com/Ryuchen/Machine-Learning-Notes)
+>>>>>>> Stashed changes
